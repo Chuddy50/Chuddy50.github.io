@@ -1,0 +1,79 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #ffffff;
+  color: #111111;
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout */
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #555;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.nav a:hover {
+  color: #000;
+}
+
+/* Headings */
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+/* Text */
+p {
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Projects */
+.project {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+/* Images */
+img {
+  width: 100%;
+  border-radius: 6px;
+  margin: 10px 0;
+}
+
+/* Buttons / Links */
+.button {
+  display: inline-block;
+  padding: 8px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #111;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: #f5f5f5;
+}
