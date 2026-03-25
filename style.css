@@ -77,3 +77,20 @@ img {
 .button:hover {
   background-color: #f5f5f5;
 }
+
+/* Global links */
+a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+a:hover {
+  color: #0052a3;
+}
+
+/* Horizontal rule */
+hr {
+  margin: 30px 0;
+  border: none;
+  border-top: 1px solid #e5e5e5;
+}
